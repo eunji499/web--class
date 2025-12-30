@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표</title>
+</head>
+<body>
+    <table 
+    border="1" <- 표선을 만들어주는 태그이다>
+        <caption>대표 시간표</caption> -> 표제목을 입력할때 쓰는 태그이다. (순서는 무조건 가로 행공간을 먼저 만든다.)
+            <tr>-> 행을 만드는 태그이다. (행을 만들어서 셀들을 채워 넣는 개념) (분류가 되는 기준 = 제목 셀)
+                    <th></th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+            </tr>   
+            <tr>
+                <th>오전</th> -> 분류가 되는 기준이기 때문에 th 태그를 쓴다.
+                <td>출근</td> -> 내용 셀을 쓸때 쓰는 태그이다
+                <td colspan="3">휴무</td> -> (가로행)병합해야되는 것들의 기준
+                                         -> 병합태그 설정 후 병합되는 것들은 지워줘야한다.
+
+                <td rowspan="2">출근</td> ->(세로 열)병합해야되는 것들의 기준
+            </tr>
+            <tr>
+                <th>오후</th>
+                <td colspan="2">출근</td>
+                
+                <td>휴무</td>
+                <td>출근</td>
+                
+            </tr>
+            병합은 다 만들고나서 병합을 한다. 병합 모양은 무조건 사각형 모양으로만 가능하다.
+            병합에 기준이 되는 셀은 가장 왼쪽or가장 위쪽 에 있는 셀이 기준이 된다.
+    </table>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

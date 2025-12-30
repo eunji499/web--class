@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="#">  ->사용자가 입력한 데이터를 어디로 보내는 장소(목적지)를 정해주는 속성<br>
+        <div>
+            <label for="user-id">아이디(이름)</label>
+            <input type="text" placeholder="아이디를 입력해 주세요" id="user-id">   -> (placeholder) 사용자가이드 적는 란
+                                                                                 -> (id) 라벨을 연결해주는 속성[아이디 글자를 눌러도 사용자가 아이디칸에 쓸수있도록 자동으로 옮겨줌으로(편의성 높여줌)] / 특수문자 사용 안됨 (허용가능 특수문자 -> _ - ) 무조건 영어소문자+숫자(숫자는 항상 맨뒤에 배치) 
+                <p>아이디는 특수문자를 사용하면 안됩니다. 8~12자 이내의 영문과 숫자를 혼용해 주세요.</p>    - > 안내글 경고글 적는 란
+        </div>
+        <div>
+            <label for="user-pm">비밀번호</label>
+            <input type="password" placeholder="비밀번호를 입력해 주세요" id="user-pm">   -> (password) 사용자가 입력한 데이터를 ...으로 표현함(보완성)
+        </div>
+            <button type="submit">로그인</button>
+    </form>
+</body>
+</html>
