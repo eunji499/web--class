@@ -1,0 +1,8 @@
+h2{color:white;background-color: yellowgreen; font-size: 30px;}
+h2{color: blue;}
+#a{color: black;}
+.b{font-size: 50px;}
+p.c{font-size: 60px; color: #000;}
+h2.c{color: lime;}
+p.a.b{color: gold;background-color: #000;}
+div.box h2{ background-color:gray;}
