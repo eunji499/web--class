@@ -1,0 +1,15 @@
+/* h1{color: yellow!important ;} */
+body div h1#b {
+    color: #2b5993;
+    font-size: 45px;
+    background-color: aquamarine;
+}
+div h1#b{color: tomato;}
+h1#b{color: yellow;}
+#b{color: tomato;}
+div h1.a{color: yellow;}
+h1.a{color: tomato;}
+.a{color: yellow;}
+h1{color: red;}
+h1{color: blue;}
+
