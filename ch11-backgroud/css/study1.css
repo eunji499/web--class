@@ -1,0 +1,46 @@
+.a{
+    border: 1px solid red;
+    background-color: aquamarine;
+    padding: 30px;
+    background-image: url("../img/bird-640.jpg");
+    /* width: 640px; */
+    width: calc(640px + 100px);
+    /* height: 800px; */
+    height: calc(80px*10);
+    background-repeat: no-repeat;
+    /* background-position: 100px -200px; */
+    /* background-position: calc(100% - 100px) 100%;  */
+    background-size: auto 100% ;
+    /* background-size: calc(100% - 100px) auto; */
+    background-size: contain;
+}
+
+.b{
+    border: 1px solid blue;
+    height: 800px;
+    background: aquamarine url("../img/bird-640.jpg") no-repeat 50% 50% ;
+    background-size: contain;
+    background-attachment: fixed;
+    
+}   
+
+.c{
+    border: 1px solid yellow;
+    height: 800px;
+    background: lime url("../img/bird-640.jpg") no-repeat 50% 50% / contain;
+    background-blend-mode: multiply;
+}
+
+.d{
+    border: 1px solid green;
+    height: 800px;
+    background:url("../img/bird-640.jpg") no-repeat 0% 50% / auto auto,
+                url("../img/bird-640.jpg") no-repeat 50% 50% / contain,
+                url("../img/bird-640.jpg") no-repeat 100% 50% / auto 100px;
+}
+
+.e{ 
+    border:  1px solid orange;
+    height: 800px;
+    background: linear-gradient(30deg,red 20%,blue,green,yellow 80%);
+}
