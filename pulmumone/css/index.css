@@ -1,0 +1,53 @@
+*{margin: 0px ;
+     padding:0% ;}
+.bener{
+    /* border: 1px solid red; */
+    background-image: url(../img/sub_vis01_02.jpg);
+    height: 250px;
+    
+}
+
+.body{ border:  1px solid red;
+   margin: auto;
+   width: 1400px;
+   
+}
+
+.a{ font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 5%;
+    height: 50px;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    
+
+}
+
+.b{ font-family: 'pulmuone' ;
+    width: 1250px;
+    font-size: 52px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h4{font-size: 35px;
+}
+
+.c{ margin: auto;
+    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+    font-family: 'Pretendard';
+    font-weight: 500;
+    text-align: center;
+    background-color: aliceblue;
+    background-size: auto;
+}
+.c p{
+    margin-top: 15px;
+    font-family: 'Pretendard';
+    font-weight: 300;
+}
