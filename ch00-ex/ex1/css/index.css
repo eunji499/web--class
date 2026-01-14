@@ -1,0 +1,67 @@
+*{ margin: 0px; padding: 0px;}
+
+h1,h2,h3,h4,h5,h6{ 
+                    font-size: inherit;
+                    font-weight: inherit;}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+address{
+    font-style: inherit;
+
+}
+ul,ol{list-style: none;}
+/* ----기본설정---- */
+
+
+html{
+    font-family: 'Pretendard',sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+}
+.main{
+    margin: 0 auto;
+    padding: 3.75rem;
+    text-align: center;
+    width: 1440px;
+}
+
+.main h1{
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.main p{
+    line-height: 140%;
+}
+
+.benner{
+    background: url(../img/5d106bfeedc73ee72734dc3aeb348f9c8f2b4490.jpg) no-repeat 50% 50% / cover ;
+    height: 441px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.sub h2{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: .5rem 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.sub li{
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+}
+.sub li:last-of-type{ margin-bottom: 0;}

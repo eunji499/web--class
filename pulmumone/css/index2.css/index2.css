@@ -12,15 +12,16 @@ html{
 
 .banner{ 
     /* border: 1px solid red; */
-    background:url(./img/sub_tit_line.gif) no-repeat 50% 50% /cover;
+    background:url(./img/sub_vis01_02.jpg) no-repeat 50% 50% /cover;
     height: 250px;
-    margin: 50px;
+    margin: 0 auto;
 }
 
 .main{ 
-    border: 1px solid red;
+    border: 10px solid red;
     width: 1200px;
     margin: 0 auto;
+    
 
 }
 main h1{
@@ -28,7 +29,7 @@ main h1{
     font-size: 30px;
     margin-bottom: 100px;
     font-weight: 400;
-    background: url(./img/sub_vis01_02.jpg) repeat-x 0 50%;}
+    background: url(./img/sub_tit_line.gif) repeat-x 0 50%;}
 
 main span{
     /* border: 1px solid aqua; */
