@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+address{
+    font-style: inherit
+}
+ul.ol{
+    list-style: none;
+}
+/* ----------기본설정 끝--------*/
+
+html{
+     font-family: 'Pretendard';
+     font-weight: 400;
+     font-size: 16px;
+}
+
+
+.main{
+    margin: 0 auto;
+    width: 834px;
+    padding: 36px 0;
+}
+
+.logo{
+    width: 237px;
+    height: 60px;
+    background: url(../img/221213_reserve_store_top_logo.png) no-repeat ;
+    margin-bottom: 38px;
+    background-size: 100%;
+}
+
+.img{
+    height: 247px;
+    background:url(../img/221214_reserve_store_top_img.png) no-repeat ;
+    background-size: 100%;
+    margin-bottom: 36px;
+}
+
+.img span{
+    color: #fff;
+    
+}
+
+.main h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.desk { line-height: 25px;}
+.desk span{ text-transform: uppercase;}
+.desk sup{ font-size: 10px;}
+
+.main h2.b{
+    margin-top: 72px;
+}
+.main h2.b sup{
+    font-size: 20px;
+}
+
+.desk em{
+    font-style: inherit;
+    text-transform: capitalize;
+}
+.desk sup{
+    font-size: 8px;
+}
