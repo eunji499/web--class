@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{ font-size: inherit;
+font-weight: inherit;}
+
+a{ color: inherit;
+ text-decoration: inherit;}
+
+ address{
+    font-style: inherit;
+ }
+ ol,ul{
+    list-style: none; }
+
+
+
+  html{
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+    
+
+.main{
+    background: url(../img/7247350364b9abd890d544b50b85e6093c349f17.png) no-repeat 50% 50% /cover;
+     color: #fff;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 270px;
+    padding-bottom: 271px;
+}
+/* .main span{
+    color: #fff;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin-top: 270px;
+    text-align: center; */
+
+
+.sub{
+    margin: 0 auto;
+    width: 1600px;
+    padding-top: 120px;
+
+}
+
+.sub h1{ 
+    height: 144px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    line-height: 90%;
+}
+
+.sub  #two{
+    border-top: 1px solid gray;
+    height: 28px;
+    font-size: 1rem;
+    padding: 20px 0;
+    text-align: right;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    font-family: 'Pretendard';
+    font-weight: 400;
+}
+
+.img{
+    width: 1000px;
+    height: 430px;
+    margin-right: 600px;
+}
+
+.sup strong{
+    text-transform: uppercase;
+
+}
+
+.sub p{
+     font-family: 'Pretendard';
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 1rem;
+    
+}
