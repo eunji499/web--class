@@ -1,0 +1,38 @@
+.a{
+    border: 1px solid red;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+p span{
+    border: 1px solid blue;
+    display: inline-block;
+    min-width: 200px;
+}
+
+.b{
+    border: 1px solid green;
+    min-height: 100px;
+    max-height: 100px;
+    overflow: auto;
+}
+
+.c{
+    border: 5px solid orange;
+    width: 10vw;
+    height: 10vh;
+    margin-top: 100vh;
+    overflow: hidden;
+}
+
+.d{ 
+    border: 5px solid pink;
+    width: 600px;
+    min-height: 600px;
+}
+
+.f{
+    border: 5px solid red;
+    width: 50%;
+    height: 50%;
+}
