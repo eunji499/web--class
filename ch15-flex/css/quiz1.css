@@ -1,0 +1,24 @@
+*{
+    margin: 0; padding: 0;
+}
+
+.a{background-color:red;}
+.b{background-color:green;}
+.c{background-color:blue;}
+.d{background-color:gold;}
+.e{background-color:pink;}
+
+.box1{
+    background: gray;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box1 section{
+    width: 100px;
+    height: 100px;
+
+}
