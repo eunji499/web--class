@@ -1,0 +1,89 @@
+
+html{
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.wrap{
+    
+    margin: 0 auto;
+}
+
+.top{
+    /* border: 2px solid red; */
+    background: url(../img/메인.png) no-repeat 50% 70% / cover;
+    height: 599px;
+    border-radius: 0 0 120px 120px;
+}
+
+.top h1{
+    font-family: "Aboreto";
+    color: #fff;
+    font-size: 2em;
+   
+}
+.img-bar{
+    border: 2px solid red;
+    margin: 0 800px 0 800px;
+}
+
+.a{
+    background: url(../img/BACKGROUND.jpg) repeat-x;
+    height: 613px;
+    margin-top: 200px;
+}
+
+.a h1{
+    /* border: 2px solid blue; */
+    font-family: "Aboreto";
+    font-size: 7.5em;
+    text-align: center;
+}
+
+.a h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.a span{
+    color: #770000;
+}
+
+.b {width: 1600px; 
+    margin: 0 auto;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.b img{
+    width: 790px;
+    height: 434px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.c{margin: 0 auto;
+    width: 1600px; 
+}
+.c h2{
+    font-family: "Aboreto";
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.c span{
+     color: #770000;
+}
+.c ul{
+    margin-bottom: 218px;
+}
+.c li{
+    text-transform: uppercase;
+}
+
+.c .li-1{
+    margin-bottom: 10px;
+}
