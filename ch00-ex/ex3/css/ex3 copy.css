@@ -1,0 +1,103 @@
+html{
+    font-family: 'pretendard', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner{
+    /* border: 1px solid red; */
+    height: 599px;
+    background: url(../img/메인.png) no-repeat 50% 70% /cover;
+    border-radius: 0 0 150px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    /* border: 1px solid red; */
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.abo {
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.common-frame{
+    width: 1600px;
+    margin: 0 auto;   
+}
+
+h2.deco-title{
+    /* border: 1px solid red; */
+    font-size: 7.5rem;
+    line-height: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10rem;
+    background: url(../img/Vector\ 1.svg) no-repeat 50% -15% ;
+    margin-bottom: 2rem;
+}
+
+.desc1{
+    /* border: 1px solid red; */
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+
+}
+.desc1 em {
+    color:#770000;
+}
+
+
+body{
+    background: url(../img/BACKGROUND.png) repeat-x 0px 664px;
+}
+
+.cafe-gal{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+
+}
+
+.cafe-gal figure{
+    /* border: 10px solid red; */
+    flex:1;
+    aspect-ratio: 790/434;
+    line-height: 0;
+}
+
+.cafe-gal figure img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.common-frame h3{
+    font-size: 2rem;
+    line-height: 140%;
+
+}
+
+.common-frame h3 em{
+    color: #770000;
+}
+
+.common-frame h3+p{
+    margin-bottom: .5rem;
+}
+
+.common-frame p strong{
+    font-weight: 600;
+    
+}
