@@ -86,3 +86,10 @@ html{
     font-weight: 700;
     margin-bottom: .5rem;
 }
+.img-box div dd{
+    display: -webkit-box;
+    -webkit-box-orient: vertical ; 
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
