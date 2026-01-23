@@ -1,0 +1,88 @@
+html{
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.stp1{
+    font-family: "aboreto";
+}
+
+
+.box1{
+    /* border:  5px solid blue; */
+    width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.box2{
+    
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.wrap h1{
+    /* border: 1px solid red; */
+    font-size: 2.5rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+.content1 p{
+    font-size: 1rem;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.banner{
+    height: 700px;
+    background: url(./img/카페전경.jpg) no-repeat 50% 50% /cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.banner h2{
+    color: #fff;
+    font-size: 7.5rem;
+}
+
+.box1 h3{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.box1 p{
+    margin: 1rem 0 2rem 0;
+    line-height: 140%;
+
+}
+
+.img-box{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 6rem;
+}
+
+.img-box div{
+    flex: 1;
+}
+
+.img-box img{
+    border-radius: 1rem;
+    object-fit: cover;
+    aspect-ratio: 521/520;
+}
+
+.img-box dl{
+    /* border: 2px solid red; */
+    text-align: start;
+}
+
+.img-box dt{
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
