@@ -34,7 +34,6 @@ html{
     font-size: 1rem;
     line-height: 140%;
     text-transform: uppercase;
-    margin-bottom: 5rem;
 }
 
 .banner{
@@ -43,6 +42,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: end;
+    margin-top: 5rem;
     
 }
 

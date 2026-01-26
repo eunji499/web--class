@@ -1,0 +1,60 @@
+html{
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.stp1{
+    font-family: "aboreto";
+}
+
+
+.menu{
+    /* border: 1px solid red; */
+    width: 1600px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.menu ul{
+     /* border: 1px solid purple; */
+    margin-left: 634px;
+    width: 866px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.menu ul li {
+    /* border: 1px solid red; */
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    flex: 1;
+}
+
+
+.banner{
+    height: 700px;
+    background: url(../img/cafe.jpg) no-repeat 50% 50% /cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    font-weight: 400;
+    font-size: 7.5rem;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
