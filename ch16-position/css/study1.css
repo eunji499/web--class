@@ -1,0 +1,46 @@
+.box1{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    position:relative;
+    /* static;<기본값> */
+    left:0px;
+    bottom: 100px;
+    opacity: 0.5;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 0;    /*<기본값>*/
+}
+.box3{
+    background-color: orange;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+     z-index: 1; /*<위치 바꾸는 속성 맨앞에> */
+}
+
+.box4{
+    background-color: green;
+    position: fixed;
+    right: 100px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
