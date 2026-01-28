@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ex1{
+    width: 800px;
+    height: 300px;
+    background-color: gray;
+    margin: 300px auto;
+    position: relative;    
+}
+
+.box-a{background-color: red;}
+.box-b{background-color: green;}
+.box-c{background-color: blue;}
+.box-d{background-color: yellow;}
+.box-e{background-color: palevioletred;}
+
+
+
+.ex1>div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.ex1 .box-a{
+    left: 0;
+    top: 0;
+}
+
+.ex1 .box-b{
+    left: 0;
+    top: 200px;
+}
+.ex1 .box-d{
+    right: 0;
+    top: 0;
+}
+.ex1 .box-e{
+    right: 0;
+    bottom: 0;
+}
+.ex1 .box-c{
+    left:calc(50% - 50px);
+    top:calc(50% - 50px);
+}
+
+
+
+
+.box.ex2{
+    width: 800px;
+    height: 300px;
+    background-color: gray;
+    margin: 300px auto;
+}
+
+.box.ex2>div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.box.ex2{
+    position: relative;
+}
+
+.ex2 .box-a{
+    left:-100px;
+    top:-100px;
+}
+
+.ex2 .box-b{
+    left:-100px;
+    bottom:-100px;
+}
+
+.ex2 .box-c{
+    left:calc(50% - 50px);
+    bottom:-100px;
+}
+
+.ex2 .box-d{
+    right:-100px;
+    top:-100px;
+}
+.ex2 .box-e{
+    right:-100px;
+    bottom:-100px;
+}
+
+
+
+.box.ex3{
+    width: 800px;
+    height: 300px;
+    background-color: gray;
+    margin: 800px auto;
+}
+
+.box.ex3{
+    position: relative;
+}
+
+.box.ex3>div{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.ex3 .box-a{
+    top: -100%;
+}
+.ex3 .box-b{
+    bottom: -100%;
+    left: 20%;
+}
+.ex3 .box-c{
+    top: -100%;
+    left: 40%;
+}
+.ex3 .box-d{
+    bottom: -100%;
+    left:60%;
+}
+.ex3 .box-e{
+    top:-100%;
+    left: 80%;
+}
+
+
+
+
+
+
+
+
+
+.box.ex4{
+    width: 800px;
+    height: 300px;
+    background-color: gray;
+    margin: 800px auto;
+}
+
+.box.ex4{
+    position: relative;
+}
+
+.ex4>div{
+    position: absolute;
+}
+
+.ex4 .box-a{
+    width: 40%;
+    height: 100%;
+    top: -50%;
+    position: relative;
+}
+
+.ex4 .box-b{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+
+.ex4 .box-c{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+}
+
+.ex4 .box-d{
+    width: 300px;
+    height: 300px;
+    top:50%;
+    right: 0;
+    position: absolute;
+    
+}
+
+.ex4 .box-e{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    left: calc(50% - 50px);
+    top: calc(50% -50px);
+}
