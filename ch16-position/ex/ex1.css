@@ -193,3 +193,96 @@
     left: calc(50% - 50px);
     top: calc(50% -50px);
 }
+
+
+.box.ex5{
+    width: 800px;
+    height: 300px;
+    background-color: gray;
+    margin: 800px auto;
+    position: relative;
+}
+
+.box.ex5>div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.box-a{
+    left: -100px;
+    top: -100px;
+    z-index: 1;
+}
+
+.box-b{
+    left:-50px;
+    top: -50px;
+}
+
+.box-c{
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.box-d{
+    left: 50px;
+    top: 50px;
+}
+
+.box-e{
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+
+
+.box.ex6{
+    width: 800px;
+    height: 300px;
+    background-color: gray;
+    margin: 800px auto;
+    position: relative;
+    display: flex;
+   
+}
+
+.box.ex6>div{
+    flex: 1;
+}
+.box.ex6 .box-a{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-a .box-c{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+}
+
+.box.ex6 .box-b{
+   position: relative;
+}
+
+.box.ex6 .box-d,
+.box.ex6 .box-e{
+     width: 100px;
+    height: 50px;
+    position: absolute;
+
+}
+
+.box-b .box-d{
+    left: 0;
+  
+}
+
+.box-b .box-e{
+    right: 0;
+    
+}

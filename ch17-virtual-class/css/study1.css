@@ -1,0 +1,63 @@
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+.a:hover{
+    background-color: blue;
+    width: 200px;
+    font-size: 2rem;
+}
+
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: 1s;
+}
+
+.b:active{
+    background-color: #000;
+    color: #fff;
+}
+
+.box{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+}
+
+.c{
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+}
+.box .c:hover{
+    font-size: 2rem;
+/* box클래스 안의 c클래스에 마우스를 올리면 폰트가 커짐 */
+}
+
+.box:hover .c{
+    background-color: gold;
+    /* 마우스가 올려진 box클래스 안의 c클래스를 선택 컬러바뀜*/
+}
+
+.d::before{
+    content: "추가된 내용1";
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.d::after{
+    content: "추가된 내용2";
+    border: 1px solid blue;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
