@@ -58,3 +58,36 @@
 
 .l{background-color: violet;}
 .l:hover{transform: skewY(-30deg);}
+
+
+
+
+
+.banner{
+    height: 600px;
+    background-color: pink;
+    position: relative;
+}
+
+
+/* 타이틀 하나만 중앙으로 오는 상황 */
+.banner h1{ 
+    position: absolute;
+    transform:
+    /* translateX(-50%) 
+    translateY(-50%)  */
+    translate(-50%,-50%); 
+    top: 50%;
+    left: 50%;
+}
+
+
+
+/* 타이틀과 그 밑에 있는 P태그 동시에 중앙으로 오는 상황 */
+
+.banner div{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}

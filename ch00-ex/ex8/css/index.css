@@ -1,0 +1,73 @@
+html{
+    font-family: Pretendard;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+header{
+    max-height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+    background-color: #fff;
+}
+
+header:hover{
+    max-height: 500px;
+}
+
+.meun1{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gnb{
+    display: flex;
+    gap: 66px;
+}
+.gnb>li{
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    flex: 1;
+}
+.gnb>li>a{
+    display: block;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lim li{
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.lim :last-of-type{
+    margin-bottom: 49px;
+}
+
+.banner{
+    height: 800px;
+    background: url(../img/카페.jpg) no-repeat 50% 50% / cover;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 7rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+}
