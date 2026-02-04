@@ -1,0 +1,87 @@
+html{
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 20px;
+}
+header{
+    height: 100px;
+    position: relative;
+}
+.inner-header{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gnb{
+    display: flex;
+}
+.gnb>li{
+    flex: 1;
+    max-height: 100px;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out 0s;
+    background-color: #fff;
+    border-radius: 0 0 5px 6px;
+}
+.gnb>li:hover{
+    max-height: 500px;
+}
+.gnb>li>a{
+    box-sizing: border-box;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+}
+
+.lnb{
+    margin: .5rem;
+}
+.lnb li{
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.lnb li:last-of-type{
+    margin-bottom: 0;
+}
+
+.banner video{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.banner h1{
+    font-size: 7rem;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.banner p{
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner div{
+    width: 1600px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}
+
