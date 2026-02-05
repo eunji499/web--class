@@ -1,0 +1,43 @@
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 200px auto;
+    animation-name: myrotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: infinite; /*(무한반복)*/
+                    /* alternate-reverse;(키프레임 반복행동후 스타일 원위치 [방향 100->0]) */
+                    /* alternate; (키프레임 반복행동 후 스타일 원위치 [방향 0->100]) */
+                    /* reverse;(키프레임 아래에서 위방향) */
+                    /* normal;(키프레임 위에서 아래방향) */
+}
+
+.a:hover{
+    animation-play-state: paused;
+}
+@keyframes myrotate {
+    0%{transform: translateX(0)  rotate(0deg)  ;}
+    100%{transform: translate(300px) rotate(360deg) ;}    
+}
+
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 200px auto;
+    animation:bounce 9s ease 0s infinite normal;
+}
+
+@keyframes bounce {
+    0%{
+        transform: scale(1);
+    }
+    45.5%{ background-color: red;
+            border-radius:50%;}
+    100%{
+        transform: scale(2);
+    }
+}
