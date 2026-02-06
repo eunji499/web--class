@@ -1,0 +1,20 @@
+
+/* 1920픽셀 이하일 때 적용 */
+@media (max-width:1920px){
+    .container{background-color: red;
+    }
+}
+
+/* 1024픽셀 이하일 때 적용 */
+@media (max-width:1024px){
+    .container{background-color: blue;
+    }
+}
+
+/* 768픽셀 이하일 때 적용 */
+@media (max-width:768px){
+    .container{background-color: green;
+    }
+}
+
+/* 실무에서는 이방식으로 쓰는게 시간을 절약할수 있다. */

@@ -1,0 +1,10 @@
+@media (max-width:768px){
+    html{
+        font-size: var(--base-mo);
+    }
+    .main {
+    margin: 0 1rem;
+    padding-top: 3.75rem;
+    width: auto;
+}
+}

@@ -1,0 +1,6 @@
+@media(max-width:393px){
+
+  html{
+  font-size: var(--base-mo);
+}
+}

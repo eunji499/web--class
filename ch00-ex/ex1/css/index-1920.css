@@ -1,10 +1,4 @@
-:root{
-    --base-pc:20px;
-    --base-tap:18px;
-    --base-mo:14px;
-}
-
-/* @media (max-width:1920px){
+@media (max-width:1920px){
     html{
     font-family: 'Pretendard',sans-serif; 
     font-weight: 400;
@@ -14,15 +8,15 @@
 
     .main{
         margin: 0 auto;
-        padding: 3.75rem;
+        padding-top: 3.75rem;
         text-align: center;
         width: 1440px;
     }
 
     .main h1{
         /* padding-top: 20px;
-        padding-bottom: 20px; 
-        padding: 1rem 0;
+        padding-bottom: 20px; */
+        padding-top: 1rem 0;
         font-size: 2.5rem;
         font-weight: 900;
         text-transform: uppercase;
@@ -43,7 +37,7 @@
 
     .sub h2{
         /* padding-top: 10px;
-        padding-bottom: 10px; 
+        padding-bottom: 10px; */
         padding: .5rem 0;
         margin-bottom: 1rem;
         font-size: 1.5rem;
@@ -59,17 +53,4 @@
 
 
 
-} */
-/* CSS 적용된 모든 요소들은 이미 PC에 넣어놔서 적용이 되고 있으므로 탭,모바일은 바껴야하는 것만 선택해서 넣어주면된다. */
-/* @media (max-width:1024px){
-    html{
-        font-size: var(--base-tap);
-    }
 }
-
-@media (max-width:768px){
-    html{
-        font-size: var(--base-mo);
-    }
-} */
-/* 현재의 순서가 중요하다. 화면크기가 높은순에서 작은순으로 가야된다.  */
