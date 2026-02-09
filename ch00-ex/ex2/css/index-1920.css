@@ -1,11 +1,6 @@
 
 @media(max-width:1920px){
-    .aboreto{
-    font-family: "Aboreto", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    }
-
+   
     html{
         font-size: var(--base-PC);
         font-weight: 400;
