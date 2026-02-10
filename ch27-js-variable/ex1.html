@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex</title>
+</head>
+<body>
+    <div>
+        <h2>문제</h2>
+        <p>홈페이지 사용자에게 이름과,국어점수,영어점수,수학점수,사회점수를 각각 물어보고 평균값을 계산하여, 다음과 같이 홈페이지에 나타날 수 있도록 소스코드를 작성하세요.(p태그로 마크업이 될수 있게 할 것)</p>
+
+        답안 예시) [정현진님의] 평균 점수는 92.33점 입니다.
+    </div>
+
+    <script>
+        let name = prompt("당신의 이름은?")
+        let g = prompt(""+name+"국어 점수는?")
+        let e = prompt(""+name+"영어 점수는?")
+        let c = prompt(""+name+"수학 점수는?")
+        let s = prompt(""+name+"사회 점수는?")
+        
+        g= Number(g)
+        e= Number(e)
+        c= Number(c)
+        s= Number(s)
+
+        // console.log((g+e+c+s)/4)
+        let p = (g+e+c+s)/4 .toFixed(2)
+        document.write("<p>["+name+"님의] 평균 점수는 "+p+" 점 입니다. </p>")
+    </script>
+
+    <script> //쌤풀이
+        let userName = prompt("당신의 이름은?")
+        let scoreKo =Number(prompt(""+name+"국어 점수는?"))
+        let scoreEn=Number(prompt(""+name+"영어 점수는?"))
+        let scoreMt=Number(prompt(""+name+"수학 점수는?"))
+        let scoreSo=Number(prompt(""+name+"사회 점수는?"))
+        let scoreSum = scoreKo+scoreEn+scoreMt+scoreSo
+        let scoreAver = (scoreSum/4).toFixed(2)
+
+        document.write("<p>["+userName+"님의] 평균점수는 "+scoreAver+"점 입니다.</p>")
+    </script>
+</body>
+</html>

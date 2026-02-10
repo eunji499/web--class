@@ -1,0 +1,16 @@
+@media(max-width:768px){
+
+      html{
+        font-family: 'pretendard', sans-serif;
+        font-weight: 400;
+        font-size: var(--base-mo);
+    }
+     .wrap{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .common-frame {
+    width: 100%;
+    margin: 0 auto;
+}
+}

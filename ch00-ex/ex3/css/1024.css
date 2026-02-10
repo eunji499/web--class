@@ -1,0 +1,38 @@
+@media(max-width:1024px){
+
+      html{
+        font-family: 'pretendard', sans-serif;
+        font-weight: 400;
+        font-size: var(--base-pad);
+    }
+      .wrap{
+        width: auto;
+        margin: 0 auto;
+    }
+    .common-frame {
+    width: 100%;
+    margin: 0 auto;
+}
+
+  .banner h1{
+    font-size: 2.8rem;
+    }
+
+    h2.deco-title {
+    font-size: 4.5rem;
+
+}
+    .cafe-gal{
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+        margin: 0 2rem;
+    }
+}
+
+
+
+
+
+
+
