@@ -5,12 +5,22 @@
         font-weight: 400;
         font-size: var(--base-mo);
     }
-     .wrap{
-        width: 100%;
-        margin: 0 auto;
-    }
-    .common-frame {
-    width: 100%;
-    margin: 0 auto;
+      .common-frame {
+        width: auto;
+        margin: 0 1rem;
+
 }
+    h2.deco-title {
+        font-size: 50px;
+        background: url(../img/Vector\ 1.svg) no-repeat 50% -75px;
+}
+    .cafe-gal{
+    
+        flex-direction: column;
+    }
+
+    .cafe-gal figure {
+        aspect-ratio: 365/200;
+}
+
 }
