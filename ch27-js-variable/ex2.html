@@ -46,6 +46,9 @@
             let userheight = Number(prompt("키를 입력하세요"))
             let bmi = (userweight / Math.pow(userheight/100,2)).toFixed(2)
 
+            let userBmi = userweight / Math.pow(userheight/100,2)
+            let grap = userBmi<=18.5?"저체중" : userBmi<=23? "정상" : userBmi<=25? "과체중" : "비만"
+
            document.write(`
                 <dl class="bmi-dl">
                     <dt>이름</dt>
@@ -56,6 +59,8 @@
                     <dd>${userheight}</dd>
                     <dt>bmi</dt>
                     <dd>${bmi}</dd>
+                    <dt>상태</dt>
+                    <dd>${grap}<dd>
                 
                 </dl>
             `)
