@@ -137,11 +137,17 @@
         gap: 1rem;
         flex-direction: column;
     }
-        .gallery figure img {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 1/150px;
+
+    .gallery figure {
+    flex: 1;
+    aspect-ratio: 135/150;
 }
+    .gallery figure img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1/1;
+        line-height: inherit;
+    }
 
 }
 
