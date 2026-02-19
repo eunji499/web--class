@@ -1,3 +1,10 @@
+:root{
+    --bass-pc:20px;
+    --bass-pad:18px;
+    --bass-mo:14px;
+}
+
+
 html{
     font-family: 'Pretendard',sans-serif;
     font-weight: 400;
@@ -95,4 +102,46 @@ html{
     -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+@media(max-width: 1920px){
+    html{
+    font-size: var(--bass-pc);
+}
+}
+@media(max-width: 1024px){
+        html{
+    font-size: var(--bass-pad);}
+
+    .common-frame{
+        width: 100%;
+        margin: 0 auto;}
+
+    .banner {
+        height: 600px;}
+        
+    .banner h2 {
+        font-size: 4.4rem;
+        padding: 0 2rem;}
+    
+    .common-frame {
+        width: auto;
+        margin: 0 2rem;
+        padding-bottom: 6rem;
+
+}
+}
+@media(max-width: 768px){
+        html{
+    font-size: var(--bass-mo);}
+    
+    .common-frame {
+    width: auto;
+    margin: 0 1rem;}
+
+    .banner h2 {
+    font-size: 3.5rem;
+    padding: 0 1rem;
+    text-align: center;
+}
 }

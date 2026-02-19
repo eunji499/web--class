@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반복문 - for</title>
+</head>
+<body>
+    <h1>반복문</h1>
+    <p>조건이 참으로 계산되는 동안 소스코드를 반복하는 문법구조</p>
+    <script>
+        // for(조건){반복될 소스 코드}
+        // for(let i=0 ; i<400 ; i++) //i++ = i에 1을 더해서 저장한다.
+        //    {document.write(`<li>${i}</li>`)
+        // }
+        for(let e=1 ; e<=9 ; e++) {document.write(`<li>5x${e}=${5*e}</li>`)} 
+        //사용자에게 원하는 구구단수를 입력하게 한 후 구구단이 출력될 수 있도록 소스코드를 바꿔보시오
+        let dan = Number(prompt("구구단 몆 단을 출력할까?"))
+        for(let c=1 ; c<=9 ; c++) {document.write(`<li>${dan}x${c}=${dan*c}</li>`)}
+    
+        let myclass = ["장윤서","이은지","김민지","조성현"]
+
+    </script>
+    <ul>
+        <script>
+            for(let i=0 ; i<myclass.length ; i++){document.write(`<li>${myclass[i]}</li>`)}
+            
+        </script>
+    </ul>
+    </body>
+</html>
