@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<body>
+
+    <h1>객체 - object</h1>
+    <p>자바스크립트에서 사물을 나타낼 때 사용하는 표현</p>
+    <p>그리고 각각의 프로퍼티는 :(클론)을 사용하여 key:value형태로 구성되어 있다.</p>
+    <p>여기서 key값을 사용하여 저장된 value값을 가져올 수 있다. key값은 객체안에 속해있는 변수처럼 활용된다.</p>
+    <script>
+        {} //-객체
+        [] //-배열
+        let person1 = ["정현진","남자",50] //[원소]
+        person1[0]
+
+        let person2 = {gender:"남자",age:50,name:"정현진"} //{프로퍼티 속성} - 키값(key):"벨류(value)"
+        person2["name"] //이방식보다는
+        person2.name  //이렇게 쓰는것을 선호한다.
+        
+        console.log(person2.name)
+
+        let person3 = {name:"장윤서",gender:"여자",age:27}
+        console.log(person3.gender)
+
+        person3.name //장윤서
+        person3.name[1] //윤
+        person3.gender.length //2
+        person3.gender.length-2?"A":"B" //B
+
+        
+    </script>
+    
+</body>
+</html>

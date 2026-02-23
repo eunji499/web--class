@@ -103,20 +103,23 @@ html{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
+@media (max-width:5120px){}
+@media (max-width:3840px){}
 @media(max-width: 1920px){
     html{
     font-size: var(--bass-pc);
 }
 }
-@media(max-width: 1024px){
-        html{
-    font-size: var(--bass-pad);}
-
+@media(max-width: 1600px){
     .common-frame{
         width: 100%;
         margin: 0 auto;}
 
+}
+@media(max-width: 1024px){
+        html{
+    font-size: var(--bass-pad);}
+    
     .banner {
         height: 600px;}
         
@@ -144,4 +147,19 @@ html{
     padding: 0 1rem;
     text-align: center;
 }
+    .banner {
+        height: 500px;
+        margin-top: 5rem;
+        background: url(../css/img/카페전경.jpg) no-repeat 50% 50% /cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+
+    }
+    .gallery {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
 }

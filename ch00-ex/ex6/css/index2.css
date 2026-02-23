@@ -1,3 +1,11 @@
+:root{
+    --bass-pc:20px;
+    --bass-pad:18px;
+    --bass-mo:14px;
+}
+
+
+
 html{
     font-family: 'Pretendard',sans-serif;
     font-weight: 400;
@@ -55,3 +63,34 @@ header .common-frame{
     text-transform: uppercase;
 }
 
+@media(max-width:1920px){
+    html{
+        font-size: var(--bass-pc);}
+}
+@media(max-width:1600px){
+    .common-frame {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 2rem;}
+
+}
+@media(max-width:1024px){
+    html{
+    font-size: var(--bass-pad);}
+
+    .banner h1 {
+        font-size: 4.4rem;}
+
+    .banner {
+        height: 600px;}
+
+
+}
+@media(max-width:768px){
+    html{
+        font-size: var(--bass-mo);}
+    
+    .banner h1 {
+        font-size: 3.5rem;}
+
+}
