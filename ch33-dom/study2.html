@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>제목1</h1>
+    <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum facilis corrupti repellendus magni sed, accusamus hic aut illo quas ut explicabo commodi nesciunt deleniti doloremque illum earum? Nemo, possimus?</p>
+
+    <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum facilis corrupti repellendus magni sed, accusamus hic aut illo quas ut explicabo commodi nesciunt deleniti doloremque illum earum? Nemo, possimus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ea corrupti voluptas eligendi illum similique eius. Deleniti aspernatur cum eaque ad corrupti? Soluta veritatis accusamus eum non excepturi molestiae aperiam.</p>
+
+    <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatum facilis corrupti repellendus magni sed, accusamus hic aut illo quas ut explicabo commodi nesciunt deleniti doloremque illum earum? Nemo, possimus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est asperiores quo earum non voluptate, eius error deleniti enim commodi, ipsum fugit dicta iure officiis nam sint similique odio facilis animi.</p>
+
+    <script>
+        let h1tag = document.querySelector("h1"); 
+        h1tag.style.color = "red"; // h1태그의 글자색을 빨간색으로 변경 우선순위 점수 1000점
+        h1tag.style.fontSize = "80px"; // h1태그의 글자크기를 80px로 변경 우선순위 점수 1000점
+        h1tag.style.textDecoration = "underline"; // h1태그의 글자밑줄을 추가 우선순위 점수 1000점
+
+        let pTags = document.querySelectorAll(".a"); // class가 a인 모든 p태그를 선택하여 pTags에 저장 
+         //[{}, {}, {}] 배열 형태로 저장됨
+            // pTags[0].style.color = "blue"; // p태그의 글자색을 파란색으로 변경 우선순위 점수 1000점
+            // pTags[1].style.color = "blue"; 
+            // pTags[2].style.color = "blue"; 
+
+        for(let i = 0; i < pTags.length; i++) { //기초식
+            pTags[i].style.color = "blue"; 
+        }// for문을 사용하여 pTags 배열의 각 요소에 접근하여 글자색을 파란색으로 변경하는 방법입니다. i는 0부터 pTags.length - 1까지 증가하면서 각 요소에 접근합니다.
+        
+        pTags.forEach(function(pTag) {  //요즘식
+            pTag.style.color = "blue"; 
+        });// forEach문은 배열의 각 요소에 대해 함수를 실행하는 메서드입니다. pTags 배열의 각 요소인 pTag에 대해 글자색을 파란색으로 변경하는 함수를 실행합니다. 익명함수 (function(pTag) { ... })는 각 요소에 대해 실행될 함수를 정의하는 부분입니다. pTag는 forEach문이 배열의 각 요소를 전달할 때 사용되는 매개변수입니다.
+
+        pTags.forEach((pTag) => {pTag.style.color = "blue"});
+
+        pTags.forEach(pTag => {pTag.style.color = "blue"}); // 화살표 함수에서 매개변수가 하나일 때는 괄호를 생략할 수 있습니다. 또한, 함수 본문이 한 줄일 때는 중괄호와 return 키워드도 생략할 수 있습니다. 이 방법은 가장 간결하게 표현한 형태입니다. {}로는 리턴을 해야하는 입장에서는 생략해서는 안됩니다. 하지만 리턴이 필요없는 경우에는 생략이 가능합니다. pTags.forEach(pTag => pTag.style.color = "blue"); // 이렇게도 표현할 수 있습니다. 화살표 함수에서 매개변수가 하나일 때는 괄호를 생략할 수 있고, 함수 본문이 한 줄일 때는 중괄호와 return 키워드도 생략할 수 있습니다. 이 방법은 가장 간결하게 표현한 형태입니다.
+        
+    </script>
+</body>
+</html>
