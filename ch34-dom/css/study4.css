@@ -1,0 +1,37 @@
+.button-type {
+            display: inline-block;
+            padding: .2rem 1.5rem;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+html{
+    font-size: 20px;
+}
+
+.font-controler{
+    position: fixed;
+    right: 0;
+    top: 0;
+   
+}
+
+.font-controler ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.chip{
+    display: inline-block;
+    padding: .5rem;
+    background: #9acce5;
+    border-radius: 5px;
+    color: red;
+}
