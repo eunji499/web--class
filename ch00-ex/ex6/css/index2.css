@@ -4,7 +4,9 @@
     --bass-mo:14px;
 }
 
-
+.hidenGnb{
+    display: none;
+}
 
 html{
     font-family: 'Pretendard',sans-serif;
@@ -115,7 +117,54 @@ header .common-frame{
         display: flex;
         align-items: center;
         justify-content: space-between;}
-   
+
+     .hidenGnb{
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 1000;
+        transform: translateX(100%);
+    }
+
+    .hidenGnb.on{
+        transform: translateX(0%);
+        transition: all 0.3s ease 0s;
+    }
+
+    .hdTop{
+        border-bottom: #000 1px solid;
+        margin-bottom: 1rem;
+    }
+
+   .hdTop .common-frame{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hdbot ul li{
+        padding: 1rem 0;
+        border-bottom: 1px solid #00000017;
+
+    }
+
+    .gnb-mobile{
+    font-size: 1rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+
+
+
+
+
+
+
 }
 @media(max-width:768px){
     html{
@@ -128,5 +177,7 @@ header .common-frame{
         width: auto;
         margin: 0 auto;
         padding: 0 1rem;}
+
+   
     
 }
