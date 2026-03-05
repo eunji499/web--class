@@ -1,0 +1,43 @@
+*{margin: 0; padding: 0;}
+ul{list-style:none;}
+
+.station{
+    width: 100%;
+    height: 100vh; /* vh - 화면 높이 까지 보여줌*/
+    border: 10px solid black;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.train{
+    /* width: 300%; 100%(부모사이즈적용) 곱하기 li 갯수 */
+    height: 100%;
+    display: flex;
+    transition: all 1s ease 0s;
+}
+
+.train li{
+    flex: 1;
+    /* width: 33.333%; 100%을 li 갯수로 나눔 */
+    height: 100%;
+    font-size: 100px;
+}
+
+.train li:nth-of-type(1){background-color: red;}
+.train li:nth-of-type(2){background-color: blue;}
+.train li:nth-of-type(3){background-color: green;}
+.train li:nth-of-type(4){background-color: gold;}
+
+.controler{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
