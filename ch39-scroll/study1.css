@@ -1,0 +1,45 @@
+.box{
+    /* height: 5000px; */
+    /* background-color: beige; */
+    padding-top: 200px;
+   
+}
+*{margin: 0;padding: 0;}
+
+header#scr{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    z-index: 1000;
+}
+header#scr.on{
+    background-color: blueviolet;
+    
+}
+#current-count{
+    font-weight: bold;
+    color: tomato;
+}
+
+.rotate-box{
+    border: 1px solid tomato;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    /* transform: rotate(35deg); */
+    position: sticky;
+    top: 100px;
+   
+}
+
+.box>section{
+    background: url(./img/wee.png) repeat-x 0% 0%;
+    min-height: 2000px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    
+}
